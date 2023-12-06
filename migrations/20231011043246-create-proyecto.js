@@ -9,10 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id: {
-        type: Sequelize.INTEGER,
-        unique: true
-      },
       nombre: {
         type: Sequelize.STRING,
         defaultValue: ''

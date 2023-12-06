@@ -5,16 +5,11 @@ module.exports = {
     await queryInterface.createTable('Personas', {
       id: {
         allowNull: false,
-        autoIncrement: true,
+        unique: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
-        unique: true,
-        primaryKey: true
-      },
+      
       rfc: {
         type: Sequelize.STRING,
         allowNull: false

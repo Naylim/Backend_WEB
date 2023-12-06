@@ -11,7 +11,8 @@ module.exports = (sequelize, DataTypes) => {
   Proyecto.init({
     id: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
+      primaryKey: true
     }, 
     nombre: {
       type: DataTypes.STRING,

@@ -2,14 +2,14 @@
   "development": {
     "username": "backenduser",
     "password": "superpassword",
-    "database": "meta23",
-    "host": "127.0.0.1",
+    "database": "backenddata",
+    "host": "localhost",
     "dialect": "mysql",
-    "logging": false
+    "logging": true
   },
   "test": {
     "username": "",
-    "password": "010410Cazares!",
+    "password": "",
     "database": "",
     "host": "127.0.0.1",
     "dialect": "mysql"
